@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Laiza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-24 05:33:25 "/>
+        <attribute name="created" value="TGFpemE7TEFQVE9QLTFQOUdDUVY3OzIwMjItMDItMjQ7IjA1OjE0OjEwICI7MjczMg=="/>
+        <attribute name="edited" value="TGFpemE7TEFQVE9QLTFQOUdDUVY3OzIwMjItMDItMjQ7IjA1OjMzOjI1ICI7MjsyODQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4, media" type="Integer" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <input variable="n4"/>
+            <assign variable="media" expression="(n1+n2+n3+n4)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;passou&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;reprovoukkkkkk&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
